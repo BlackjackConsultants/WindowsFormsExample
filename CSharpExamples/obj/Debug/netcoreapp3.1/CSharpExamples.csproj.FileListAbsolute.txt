@@ -65,8 +65,10 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamp
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.csproj.CoreCompileInputs.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.csproj.CopyComplete
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.csprojAssemblyReference.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.MathExpressionExample.resources
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.csproj.GenerateResource.cache
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.JsonExamples.resources
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamples\obj\Debug\netcoreapp3.1\CSharpExamples.csproj.CoreCompileInputs.cache
