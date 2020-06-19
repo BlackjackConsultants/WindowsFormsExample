@@ -23,29 +23,19 @@ namespace CSharpExamples {
             }
         }
         private void lstJsonReport_AddReport(object sender, LinkLabelLinkClickedEventArgs e) {
-            List<JArray> reports = new List<JArray>();
-            // add a fake report for deal mapping
-            var data = "[" +
-              "{" +
-               "\"SourceDataId\", \"4\"," +
-               "\"SourceDataValue\", \"Australian Dollarv\"," +
-               "\"DestinationDataId\", \"43640\"," +
-               "\"DestinationDataValue\", \"AP-1-Standalone\"," +
-              "}," +
-              "{" +
-               "\"SourceDataId\", \"3\"," +
-               "\"SourceDataValue\", \"UAE Dirham\"," +
-               "\"DestinationDataId\", \"43639\"," +
-               "\"DestinationDataValue\", \"AP-1-Standalone\"" +
-              "}," +
-              "{" +
-               "\"SourceDataId\", \"1\"," +
-               "\"SourceDataValue\", \"United States\"," +
-               "\"DestinationDataId\", \"43408\"," +
-               "\"DestinationDataValue\", \"AP-1-Standalone\"" +
-              "}" +
-            "]";
-            reports.Add(new JArray(data));
+            var report = new JArray(
+                        new JObject(
+                            new JProperty("title", "James Newton-King"),
+                            new JProperty("link", "http://james.newtonking.com"),
+                            new JProperty("description", "James Newton-King's blog.")));
+
+            report.Add(new JObject(
+                            new JProperty("title", "James Newton-King"),
+                            new JProperty("link", "http://james.newtonking.com"),
+                            new JProperty("description", "James Newton-King's blog.")));
+
+            System.Diagnostics.Debug.WriteLine(report.ToString());
+            System.Diagnostics.Debug.WriteLine(report[0]["title"]);
         }
     }
 }
