@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +21,31 @@ namespace CSharpExamples {
                 string value = test[i]["memoDescription"].ToString();
                 System.Diagnostics.Debug.WriteLine(value);
             }
+        }
+        private void lstJsonReport_AddReport(object sender, LinkLabelLinkClickedEventArgs e) {
+            List<JArray> reports = new List<JArray>();
+            // add a fake report for deal mapping
+            var data = "[" +
+              "{" +
+               "\"SourceDataId\", \"4\"," +
+               "\"SourceDataValue\", \"Australian Dollarv\"," +
+               "\"DestinationDataId\", \"43640\"," +
+               "\"DestinationDataValue\", \"AP-1-Standalone\"," +
+              "}," +
+              "{" +
+               "\"SourceDataId\", \"3\"," +
+               "\"SourceDataValue\", \"UAE Dirham\"," +
+               "\"DestinationDataId\", \"43639\"," +
+               "\"DestinationDataValue\", \"AP-1-Standalone\"" +
+              "}," +
+              "{" +
+               "\"SourceDataId\", \"1\"," +
+               "\"SourceDataValue\", \"United States\"," +
+               "\"DestinationDataId\", \"43408\"," +
+               "\"DestinationDataValue\", \"AP-1-Standalone\"" +
+              "}" +
+            "]";
+            reports.Add(new JArray(data));
         }
     }
 }
