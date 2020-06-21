@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -22,6 +23,7 @@ namespace CSharpExamples {
                 System.Diagnostics.Debug.WriteLine(value);
             }
         }
+
         private void lstJsonReport_AddReport(object sender, LinkLabelLinkClickedEventArgs e) {
             var report = new JArray(
                         new JObject(
@@ -36,6 +38,47 @@ namespace CSharpExamples {
 
             System.Diagnostics.Debug.WriteLine(report.ToString());
             System.Diagnostics.Debug.WriteLine(report[0]["title"]);
+        }
+
+
+        private void lstJsonReport_FilterReport(object sender, LinkLabelLinkClickedEventArgs e) {
+            // creating json and parsing it
+            string json = @"{'results': [{'buttonPress': 8, 'minutesStreamed': 83 }, { 'buttonPress': 3, 'minutesStreamed': 4 }, {'buttonPress': 7, 'minutesStreamed': 61 }]}";
+            JObject obj = JObject.Parse(json);
+            var list = obj["results"]
+                        .Where(r => (int)r["minutesStreamed"] > 60);
+
+            System.Diagnostics.Debug.WriteLine(list.Count().ToString());
+
+            // using jobjects and querying ints
+            var report = new JArray(
+                        new JObject(
+                            new JProperty("title", "a"),
+                            new JProperty("amount", 8),
+                            new JProperty("description", "James Newton-King's blog.")));
+
+            report.Add(new JObject(
+                            new JProperty("title", "b"),
+                            new JProperty("amount", 9),
+                            new JProperty("description", "James Newton-King's blog.")));
+            var test = report.Where(r => (int)r["amount"] == 9);
+            System.Diagnostics.Debug.WriteLine(test.Count().ToString());
+
+            // using jobjects and querying ints
+            var report2 = new JArray(
+                        new JObject(
+                            new JProperty("title", "a"),
+                            new JProperty("amount", 8),
+                            new JProperty("description", "James Newton-King's blog.")));
+
+            report2.Add(new JObject(
+                            new JProperty("title", "b"),
+                            new JProperty("amount", 9),
+                            new JProperty("description", "James Newton-King's blog.")));
+            var test2 = report2.Where(r => r["title"].ToString() == "b");
+            System.Diagnostics.Debug.WriteLine(test2.Count().ToString());
+
+
         }
     }
 }
