@@ -75,8 +75,10 @@ namespace CSharpExamples {
                             new JProperty("title", "b"),
                             new JProperty("amount", 9),
                             new JProperty("description", "James Newton-King's blog.")));
-            var test2 = report2.Where(r => r["title"].ToString() == "b");
-            System.Diagnostics.Debug.WriteLine(test2.Count().ToString());
+            var test2 = report2.Where(r => r["title"].ToString() == "b").ToList();
+            //System.Diagnostics.Debug.WriteLine(test2.Count().ToString());
+            System.Diagnostics.Debug.WriteLine("the value for the filtered title is: " + test2[0]["title"]);
+
 
 
         }
