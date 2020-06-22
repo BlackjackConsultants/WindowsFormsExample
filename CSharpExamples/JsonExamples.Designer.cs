@@ -26,12 +26,13 @@
             this.lstJsonReport = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.lnkCreateJson = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lstJsonReport
             // 
             this.lstJsonReport.AutoSize = true;
-            this.lstJsonReport.Location = new System.Drawing.Point(313, 146);
+            this.lstJsonReport.Location = new System.Drawing.Point(313, 189);
             this.lstJsonReport.Name = "lstJsonReport";
             this.lstJsonReport.Size = new System.Drawing.Size(105, 15);
             this.lstJsonReport.TabIndex = 0;
@@ -42,7 +43,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(313, 199);
+            this.linkLabel1.Location = new System.Drawing.Point(313, 222);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(150, 15);
             this.linkLabel1.TabIndex = 0;
@@ -61,11 +62,23 @@
             this.linkLabel2.Text = "Filter Json";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lstJsonReport_FilterReport);
             // 
+            // lnkCreateJson
+            // 
+            this.lnkCreateJson.AutoSize = true;
+            this.lnkCreateJson.Location = new System.Drawing.Point(313, 288);
+            this.lnkCreateJson.Name = "lnkCreateJson";
+            this.lnkCreateJson.Size = new System.Drawing.Size(164, 15);
+            this.lnkCreateJson.TabIndex = 0;
+            this.lnkCreateJson.TabStop = true;
+            this.lnkCreateJson.Text = "Create json string from object";
+            this.lnkCreateJson.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lstCreateJson_LinkClicked);
+            // 
             // JsonExamples
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lnkCreateJson);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lstJsonReport);
@@ -81,5 +94,6 @@
         private System.Windows.Forms.LinkLabel lstJsonReport;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel lnkCreateJson;
     }
 }

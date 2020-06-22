@@ -15,6 +15,13 @@ namespace CSharpExamples {
             InitializeComponent();
         }
 
+        private void lstCreateJson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            Contact test = new Contact();
+            test.Name = "Lucre";
+            var objStr = JsonConvert.SerializeObject(test);
+            System.Diagnostics.Debug.WriteLine(objStr);
+        }
+
         private void lstJsonReport_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
             var json = "[{\"currency\":\"United States Dollar\",\"exchangeRate\":1,\"amount\":250000.0,\"memoDescription\":\"New as of 6 / 16 / 2020\"},{\"currency\":\"United States Dollar\",\"exchangeRate\":1,\"amount\":250000.0,\"memoDescription\":\"255Characters22X\"}]";
             var test = JsonConvert.DeserializeObject<dynamic>(json);
