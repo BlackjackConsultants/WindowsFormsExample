@@ -11,3 +11,9 @@ static void Main() {
 }
 ```
 
+
+
+# SimpleService and Host projects
+These projects come from https://www.youtube.com/watch?v=EWBgqfhAT9U&t=6s
+youtube video.  The code is in the comments section.
+

@@ -13,7 +13,7 @@ namespace WindowsFormsExample {
 		static void Main() {
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new TableLayoutPanel());
+			Application.Run(new WcfClient());
 		}
 	}
 }
