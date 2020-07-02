@@ -1,3 +1,4 @@
+using CSharpExamplesNetCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace CSharpExamples {
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WcfClient());
+            Application.Run(new ConfigurationExample());
         }
     }
 }
