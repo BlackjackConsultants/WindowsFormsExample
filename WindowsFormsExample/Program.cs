@@ -18,7 +18,7 @@ namespace WindowsFormsExample {
                 b.Security.Message.ClientCredentialType = MessageCredentialType.Windows;
 
                 EndpointAddress ea = new EndpointAddress("Http://localhost:8080/secureCalculator");
-                var cc = new CalculatorClient.CalculatorClient();
+                var cc = new CalculatorClient.CalculatorClient(b, ea);
                 cc.Open();
 
                 // Now call the service and display the results
