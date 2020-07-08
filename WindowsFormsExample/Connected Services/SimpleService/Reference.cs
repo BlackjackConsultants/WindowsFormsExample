@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsExample.SimpleService {
+namespace CSharpExamples.SimpleService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -23,12 +23,12 @@ namespace WindowsFormsExample.SimpleService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ISimpleServiceChannel : WindowsFormsExample.SimpleService.ISimpleService, System.ServiceModel.IClientChannel {
+    public interface ISimpleServiceChannel : CSharpExamples.SimpleService.ISimpleService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SimpleServiceClient : System.ServiceModel.ClientBase<WindowsFormsExample.SimpleService.ISimpleService>, WindowsFormsExample.SimpleService.ISimpleService {
+    public partial class SimpleServiceClient : System.ServiceModel.ClientBase<CSharpExamples.SimpleService.ISimpleService>, CSharpExamples.SimpleService.ISimpleService {
         
         public SimpleServiceClient() {
         }

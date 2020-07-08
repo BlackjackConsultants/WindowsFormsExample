@@ -1,10 +1,9 @@
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\WindowsFormsExample.exe.config
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\WindowsFormsExample.exe
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\WindowsFormsExample.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.Properties.Resources.resources
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.csproj.GenerateResource.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.csproj.CoreCompileInputs.cache
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.exe
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.pdb
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.WcfClient.resources
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.csprojAssemblyReference.cache
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.Properties.Resources.resources
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\CSharpExamples.exe.config
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\CSharpExamples.exe
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\CSharpExamples.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.exe
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.pdb

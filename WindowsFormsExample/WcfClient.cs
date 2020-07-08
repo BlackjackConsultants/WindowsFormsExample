@@ -21,7 +21,7 @@ namespace WindowsFormsExample {
             if (applicationSettings.WSHttpBinding.Bindings.Count > 0) {
                 throw new Exception("You need to uncomment the the system.serviceModel section of the app.config file so we can test .config type configuation.");
             }
-            SimpleService.SimpleServiceClient client = new SimpleService.SimpleServiceClient();
+            CSharpExamples.SimpleService.SimpleServiceClient client = new CSharpExamples.SimpleService.SimpleServiceClient();
             MessageBox.Show(client.GetUserName());
         }
 

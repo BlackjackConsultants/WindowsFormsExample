@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CSharpExamples;
+using CSharpExamples.CalculatorClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -18,7 +20,8 @@ namespace WindowsFormsExample {
                 b.Security.Message.ClientCredentialType = MessageCredentialType.Windows;
 
                 EndpointAddress ea = new EndpointAddress("Http://localhost:8080/secureCalculator");
-                var cc = new CalculatorClient.CalculatorClient(b, ea);
+                var cc = new CalculatorClient(b, ea);
+                cc.Endpoint.EndpointBehaviors.Add(new SimpleEndpointBehavior());
                 cc.Open();
 
                 // Now call the service and display the results

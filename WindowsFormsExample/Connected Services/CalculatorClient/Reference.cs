@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsExample.CalculatorClient {
+namespace CSharpExamples.CalculatorClient {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -23,12 +23,12 @@ namespace WindowsFormsExample.CalculatorClient {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ICalculatorChannel : WindowsFormsExample.CalculatorClient.ICalculator, System.ServiceModel.IClientChannel {
+    public interface ICalculatorChannel : CSharpExamples.CalculatorClient.ICalculator, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CalculatorClient : System.ServiceModel.ClientBase<WindowsFormsExample.CalculatorClient.ICalculator>, WindowsFormsExample.CalculatorClient.ICalculator {
+    public partial class CalculatorClient : System.ServiceModel.ClientBase<CSharpExamples.CalculatorClient.ICalculator>, CSharpExamples.CalculatorClient.ICalculator {
         
         public CalculatorClient() {
         }

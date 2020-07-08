@@ -4,4 +4,3 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\SimpleServi
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\SimpleService\obj\Debug\SimpleService.csproj.CoreCompileInputs.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\SimpleService\obj\Debug\SimpleService.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\SimpleService\obj\Debug\SimpleService.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\SimpleService\obj\Debug\SimpleService.csprojAssemblyReference.cache
