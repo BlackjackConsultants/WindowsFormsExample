@@ -1,4 +1,5 @@
 ﻿using Microsoft.CodeAnalysis.CSharp.Scripting;
+using Microsoft.CodeAnalysis.Scripting;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,9 +16,15 @@ namespace CSharpExamples {
             InitializeComponent();
         }
 
-        private void btnSubmit_Click(object sender, EventArgs e) {
+        private void btnSubmit_Click(object sender, EventArgs e)         {
             var result = CSharpScript.EvaluateAsync(txtExpression.Text).Result.ToString();
             txtResult.Text = result;
+        }
+        private void btnRun_Click(object sender, EventArgs e)
+        {
+            ScriptState state = CSharpScript.RunAsync(txtScript.Text).Result;
+            var value = state.GetVariable("c");
+            txtResult.Text = value.Value.ToString();
         }
     }
 }

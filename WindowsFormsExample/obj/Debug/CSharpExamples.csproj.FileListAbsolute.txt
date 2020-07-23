@@ -7,3 +7,4 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsForm
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\CSharpExamples.pdb
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\CSharpExamples.csprojAssemblyReference.cache

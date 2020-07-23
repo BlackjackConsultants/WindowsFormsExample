@@ -18,7 +18,7 @@ namespace WindowsFormsExample {
 			if (args.Length > 0 && args[0] == "useFluentConfig") {
                 WSHttpBinding b = new WSHttpBinding(SecurityMode.Message);
                 b.Security.Message.ClientCredentialType = MessageCredentialType.Windows;
-
+                b.TransactionFlow = true;
                 EndpointAddress ea = new EndpointAddress("Http://localhost:8080/secureCalculator");
                 var cc = new CalculatorClient(b, ea);
                 cc.Endpoint.EndpointBehaviors.Add(new SimpleEndpointBehavior());
