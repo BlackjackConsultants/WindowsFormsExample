@@ -31,6 +31,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtScript = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // txtExpression
@@ -106,18 +107,29 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtScript.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtScript.Location = new System.Drawing.Point(12, 134);
+            this.txtScript.Location = new System.Drawing.Point(12, 139);
             this.txtScript.Multiline = true;
             this.txtScript.Name = "txtScript";
-            this.txtScript.Size = new System.Drawing.Size(984, 339);
+            this.txtScript.Size = new System.Drawing.Size(984, 64);
             this.txtScript.TabIndex = 0;
             this.txtScript.Text = "int c = (true) ? (false) ? 1 : 2 : 3;";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(12, 221);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(981, 244);
+            this.listBox1.TabIndex = 3;
+            this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
             // MathExpressionExample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 546);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtScript);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
@@ -142,6 +154,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.TextBox txtScript;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
