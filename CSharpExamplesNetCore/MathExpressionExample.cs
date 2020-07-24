@@ -21,36 +21,30 @@ namespace CSharpExamples {
             LoadListBox();
         }
 
-        private void LoadListBox()
-        {
-            foreach (var item in snippets)
-            {
+        private void LoadListBox() {
+            foreach (var item in snippets) {
                 listBox1.Items.Add(item);
             }
         }
 
-        private void LoadCodeSnippets()
-        {
+        private void LoadCodeSnippets() {
             snippets.Add("var c = 1;");
             snippets.Add("var c = \"testing\";");
             snippets.Add("var c = (true) ? (false) ? 1 : 2 : 3;");
             snippets.Add("var c = (true == true) ? (true == false) ? 1 : 2 : 3;");
         }
 
-        private void btnSubmit_Click(object sender, EventArgs e)         {
+        private void btnSubmit_Click(object sender, EventArgs e) {
             var result = CSharpScript.EvaluateAsync(txtExpression.Text).Result.ToString();
             txtResult.Text = result;
         }
-        private void btnRun_Click(object sender, EventArgs e)
-        {
-            
+        private void btnRun_Click(object sender, EventArgs e) {
             ScriptState state = CSharpScript.RunAsync(txtScript.Text).Result;
             var value = state.GetVariable("c");
             txtResult.Text = value.Value.ToString();
         }
 
-        private void listBox1_DoubleClick(object sender, EventArgs e)
-        {
+        private void listBox1_DoubleClick(object sender, EventArgs e) {
             txtScript.Text = listBox1.SelectedItem.ToString();
         }
     }
