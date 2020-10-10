@@ -1,5 +1,6 @@
 ﻿using CSharpExamples;
 using CSharpExamples.CalculatorClient;
+using CSharpExamples.SimpleService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace WindowsFormsExample {
                 WSHttpBinding b = new WSHttpBinding(SecurityMode.Message);
                 b.Security.Message.ClientCredentialType = MessageCredentialType.Windows;
                 b.TransactionFlow = true;
-                EndpointAddress ea = new EndpointAddress("Http://localhost:8080/secureCalculator");
+                EndpointAddress ea = new EndpointAddress("Http://localhost:8080/Calculator/secureCalculator");
                 var cc = new CalculatorClient(b, ea);
                 cc.Endpoint.EndpointBehaviors.Add(new SimpleEndpointBehavior());
                 cc.Open();
@@ -31,6 +32,15 @@ namespace WindowsFormsExample {
                 double result = cc.Add(value1, value2);
                 Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result);
                 cc.Close();
+
+                // simple service
+                EndpointAddress ea2 = new EndpointAddress("http://localhost:8080/SimpleService/SimpleService");
+                var ss = new SimpleServiceClient(b, ea2);
+                ss.Open();
+
+                // ok
+                var u = ss.GetUserName();
+                Console.WriteLine(u);
 
             } else {
 				Application.EnableVisualStyles();

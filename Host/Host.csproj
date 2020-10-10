@@ -47,17 +47,13 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="ICalculator.cs" />
+    <Compile Include="ISimpleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SimpleService\SimpleService.csproj">
-      <Project>{563d5ec8-31ce-4b09-9e0a-ccc9c9a11d63}</Project>
-      <Name>SimpleService</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

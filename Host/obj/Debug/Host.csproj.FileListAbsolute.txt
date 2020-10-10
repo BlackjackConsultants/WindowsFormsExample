@@ -1,11 +1,7 @@
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Host.exe.config
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Host.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Host.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\SimpleService.dll
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\SimpleService.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\SimpleService.dll.config
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csprojAssemblyReference.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CopyComplete
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csprojAssemblyReference.cache

@@ -22,7 +22,7 @@ namespace Host {
                 var test = applicationSettings.ToString();
             } else {
                 // use app.config coniguration
-                using (ServiceHost host = new ServiceHost(typeof(SimpleService.SimpleService))) {
+                using (ServiceHost host = new ServiceHost(typeof(SimpleService))) {
                     host.Open();
                     Console.WriteLine("Host started @ " + DateTime.Now.ToString());
                     Console.ReadLine();
@@ -44,8 +44,7 @@ namespace Host {
             // the base address.
             Type contractType = typeof(ICalculator);
             Type serviceType = typeof(Calculator);
-            Uri baseAddress = new Uri("http://localhost:8080/");
-
+            Uri baseAddress = new Uri("http://localhost:8080/Calculator");
             // Create the ServiceHost and add an endpoint, then start
             // the service.
             ServiceHost myServiceHost = new ServiceHost(serviceType, baseAddress);
@@ -57,10 +56,19 @@ namespace Host {
             myServiceHost.Description.Behaviors.Add(smb);
 
             myServiceHost.Open();
+
+            Type contractType2 = typeof(ISimpleService);
+            Type serviceType2 = typeof(SimpleService);
+            Uri baseAddress2 = new Uri("http://localhost:8080/SimpleService");
+            ServiceHost myServiceHost2 = new ServiceHost(serviceType2, baseAddress2);
+            myServiceHost2.AddServiceEndpoint(contractType2, myBinding, "simpleService");
+
+            myServiceHost2.Open();
             Console.WriteLine("Listening");
             Console.WriteLine("Press Enter to close the service");
             Console.ReadLine();
             myServiceHost.Close();
+            myServiceHost2.Close();
         }
 
     }
