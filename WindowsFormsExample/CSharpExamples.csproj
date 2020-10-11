@@ -83,11 +83,11 @@
     <EmbeddedResource Include="WcfClient.resx">
       <DependentUpon>WcfClient.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Connected Services\CalculatorClient\Calculator.wsdl" />
-    <None Include="Connected Services\CalculatorClient\item.xsd">
+    <None Include="Connected Services\CalculatorClient\Calculator.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\CalculatorClient\item1.xsd">
+    <None Include="Connected Services\CalculatorClient\Calculator1.wsdl" />
+    <None Include="Connected Services\CalculatorClient\Calculator1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\SimpleService\item.xsd">
@@ -133,9 +133,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\CalculatorClient\item.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Connected Services\CalculatorClient\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +143,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CalculatorClient\Calculator.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

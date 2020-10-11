@@ -31,6 +31,8 @@ namespace WindowsFormsExample {
                 double value2 = 15.99D;
                 double result = cc.Add(value1, value2);
                 Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result);
+                double result2 = cc.Subtract(value1, value2);
+                Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result2);
                 cc.Close();
 
                 // simple service

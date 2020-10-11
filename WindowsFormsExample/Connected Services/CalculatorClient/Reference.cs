@@ -20,6 +20,12 @@ namespace CSharpExamples.CalculatorClient {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Add", ReplyAction="http://tempuri.org/ICalculator/AddResponse")]
         System.Threading.Tasks.Task<double> AddAsync(double a, double b);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Subtract", ReplyAction="http://tempuri.org/ICalculator/SubtractResponse")]
+        double Subtract(double a, double b);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Subtract", ReplyAction="http://tempuri.org/ICalculator/SubtractResponse")]
+        System.Threading.Tasks.Task<double> SubtractAsync(double a, double b);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -55,6 +61,14 @@ namespace CSharpExamples.CalculatorClient {
         
         public System.Threading.Tasks.Task<double> AddAsync(double a, double b) {
             return base.Channel.AddAsync(a, b);
+        }
+        
+        public double Subtract(double a, double b) {
+            return base.Channel.Subtract(a, b);
+        }
+        
+        public System.Threading.Tasks.Task<double> SubtractAsync(double a, double b) {
+            return base.Channel.SubtractAsync(a, b);
         }
     }
 }

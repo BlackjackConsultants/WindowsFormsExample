@@ -4,4 +4,3 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\De
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csprojAssemblyReference.cache
