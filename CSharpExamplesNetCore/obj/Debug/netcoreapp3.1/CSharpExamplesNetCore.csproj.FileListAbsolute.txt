@@ -170,3 +170,4 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamp
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamplesNetCore\obj\Debug\netcoreapp3.1\CSharpExamplesNetCore.genruntimeconfig.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamplesNetCore\bin\Debug\netcoreapp3.1\CSharpExamplesNetCore.dll.config
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamplesNetCore\obj\Debug\netcoreapp3.1\CSharpExamplesNetCore.ConfigurationExample.resources
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\CSharpExamplesNetCore\obj\Debug\netcoreapp3.1\CSharpExamplesNetCore.csprojAssemblyReference.cache
