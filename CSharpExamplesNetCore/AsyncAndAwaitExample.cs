@@ -15,9 +15,11 @@ namespace CSharpExamplesNetCore {
         }
 
         private async void button1_ClickAsync(object sender, EventArgs e) {
+            System.Diagnostics.Debug.WriteLine("Before runProcess() in the button.");
             Task<int> task = RunProcess();
             int count = await task;
             textBox1.Text = count.ToString();
+            System.Diagnostics.Debug.WriteLine(count.ToString() + " after RunProcesss() in the button.");
         }
 
         private async void callMethod() {
@@ -27,10 +29,15 @@ namespace CSharpExamplesNetCore {
 
 
         static async Task<int> RunProcess() {
-            Task.Run(() => {
-                Thread.Sleep(10000);
+            var count = 0;
+            await Task.Run(async () => {
+                System.Diagnostics.Debug.WriteLine("before sleep. " + count.ToString());
+                await Task.Delay(4000);
+                count = 1;
+                System.Diagnostics.Debug.WriteLine("after sleep. " + count.ToString());
             });
-            return 1;
+            System.Diagnostics.Debug.WriteLine(" in the RunProcess. " + count.ToString());
+            return count;
         }
 
     }
