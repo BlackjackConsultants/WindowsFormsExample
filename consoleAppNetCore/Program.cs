@@ -14,7 +14,7 @@ namespace consoleAppNetCore {
                    .SetBasePath(System.IO.Directory.GetCurrentDirectory()) //From NuGet Package Microsoft.Extensions.Configuration.Json
                    //.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                    .Build();
-
+                // build a service that is instainated by .net core DI (this is NOT a wcf service)
                 var servicesProvider = BuildDi(config);
                 using (servicesProvider as IDisposable) {
                     var runner = servicesProvider.GetRequiredService<Runner>();
