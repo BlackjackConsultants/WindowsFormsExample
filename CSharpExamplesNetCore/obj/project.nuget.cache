@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0/rEueXYF1lNCZ4LkN7mvwrfW9vOgKHlDll7BHBH/H85YJl0IE/eCHxbp2QahX3wBQmbSMRgWn91gn+u/sPJeA==",
+  "dgSpecHash": "5NTuW4t5c4d3LNGUKa96OZeFo+MD8VHhLDZGLTeSW2j2AflgN3CdSGbmoiPxKtqLUaPYnabPj0PhPR/bl12vqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jorge\\OneDrive\\jorgeprg\\csharp\\examples\\WindowsFormsExample\\CSharpExamplesNetCore\\CSharpExamplesNetCore.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\3.6.0\\microsoft.codeanalysis.csharp.scripting.3.6.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.6.0\\microsoft.codeanalysis.scripting.common.3.6.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
@@ -50,7 +52,8 @@
     "C:\\Users\\jorge\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\jorge\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    "C:\\Users\\jorge\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GVimr7++TOe0DoDAkg6dTDGzaagIeQqszjAyNSiOJTzH+5L4GhzqplJvGry/TJiKJOmqcjDGt9Q1cqzyBgzsdw==",
+  "dgSpecHash": "k0BUfAw0aqiX0F9BvycrrDpvpDQcmCPKpHc0C/v/e+StfzQmbiHhlMIK0Jv1quL7ZuhzIGPu1+3MW+qqaQ/b/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jorge\\OneDrive\\jorgeprg\\csharp\\examples\\WindowsFormsExample\\CSharpExamplesNetCoreTest\\CSharpExamplesNetCoreTest.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,8 @@
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.6.0\\microsoft.codeanalysis.scripting.common.3.6.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

@@ -1,10 +1,9 @@
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\WindowsFormsExample.exe.config
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\WindowsFormsExample.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\bin\Debug\WindowsFormsExample.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.Form1.resources
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.Properties.Resources.resources
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.csproj.GenerateResource.Cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.csproj.CoreCompileInputs.cache
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.TableLayoutPanel.resources
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.csprojAssemblyReference.cache
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\WindowsFormsExample\obj\Debug\WindowsFormsExample.csprojResolveAssemblyReference.cache
