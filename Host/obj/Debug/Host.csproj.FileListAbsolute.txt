@@ -15,3 +15,4 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\De
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CopyComplete
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csprojAssemblyReference.cache

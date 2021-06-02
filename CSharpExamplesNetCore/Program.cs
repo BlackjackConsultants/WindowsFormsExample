@@ -32,9 +32,6 @@ namespace CSharpExamples {
             var collection = new ServiceCollection();
             collection.AddSingleton<IContactService, ContactService>();
             collection.AddSingleton<IPhoneService, PhoneService>();
-            // ...
-            // Add other services
-            // ...
             _serviceProvider = collection.BuildServiceProvider();
         }
     }
