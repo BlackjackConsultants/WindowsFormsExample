@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpExamples {
+namespace CSharpExamplesNetCore.Model {
     public class Contact {
         public DateTimeService datetimeService;
         public string Name { get; set; }

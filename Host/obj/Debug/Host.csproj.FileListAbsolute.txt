@@ -14,5 +14,4 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\De
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csprojAssemblyReference.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CopyComplete

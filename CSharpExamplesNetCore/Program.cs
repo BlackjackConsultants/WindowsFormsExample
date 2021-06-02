@@ -19,6 +19,7 @@ namespace CSharpExamples {
             RegisterServices();
             var service = _serviceProvider.GetService<IContactService>();
             var contactTest = service.Load();
+            var phoneTest = service.PhoneService.Load();
             System.Diagnostics.Debug.WriteLine("name: " + contactTest.Name);
 
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
@@ -30,6 +31,7 @@ namespace CSharpExamples {
         private static void RegisterServices() {
             var collection = new ServiceCollection();
             collection.AddSingleton<IContactService, ContactService>();
+            collection.AddSingleton<IPhoneService, PhoneService>();
             // ...
             // Add other services
             // ...

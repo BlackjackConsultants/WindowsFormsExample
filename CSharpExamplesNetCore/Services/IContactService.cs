@@ -1,10 +1,14 @@
 ﻿using CSharpExamples;
+using CSharpExamplesNetCore.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CSharpExamplesNetCore.Services {
-    interface IContactService {
+    public interface IContactService {
         public Contact Load();
+
+        public IPhoneService PhoneService { get; set; }
+
     }
 }

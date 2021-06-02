@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using CSharpExamplesNetCore.Model;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;

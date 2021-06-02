@@ -27,4 +27,3 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\consoleAppN
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\consoleAppNetCore\obj\Debug\netcoreapp3.1\consoleAppNetCore.pdb
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\consoleAppNetCore\obj\Debug\netcoreapp3.1\consoleAppNetCore.genruntimeconfig.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\consoleAppNetCore\bin\Debug\netcoreapp3.1\nlog.config
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\consoleAppNetCore\obj\Debug\netcoreapp3.1\consoleAppNetCore.csprojAssemblyReference.cache
