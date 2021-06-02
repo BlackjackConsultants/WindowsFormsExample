@@ -11,8 +11,6 @@ static void Main() {
 }
 ```
 
-
-
 # SimpleService and Host projects
 These projects come from https://www.youtube.com/watch?v=EWBgqfhAT9U&t=6s
 youtube video.  The code is in the comments section.
@@ -81,3 +79,8 @@ app.config
     </system.serviceModel>
 </configuration>
 ```
+
+# Dependency injection
+1. install the DI package `Install-Package Microsoft.Extensions.DependencyInjection -Version 5.0.1`
+1. Associate interface with implementation
+1. get the service.
