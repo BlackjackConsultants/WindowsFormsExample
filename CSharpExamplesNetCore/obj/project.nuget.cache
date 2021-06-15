@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5NTuW4t5c4d3LNGUKa96OZeFo+MD8VHhLDZGLTeSW2j2AflgN3CdSGbmoiPxKtqLUaPYnabPj0PhPR/bl12vqA==",
+  "dgSpecHash": "bRVm15qgyisQ2LBt0WWqVqd1nJ762H0xdUF4v8gD7kc7MkoFOUAF6mn65Eb31ibxMhEoDIj+RW7CfZnTirW2Zw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jorge\\OneDrive\\jorgeprg\\csharp\\examples\\WindowsFormsExample\\CSharpExamplesNetCore\\CSharpExamplesNetCore.csproj",
   "expectedPackageFiles": [
@@ -52,8 +52,7 @@
     "C:\\Users\\jorge\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\jorge\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
-    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+    "C:\\Users\\jorge\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

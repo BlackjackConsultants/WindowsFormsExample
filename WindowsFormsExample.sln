@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpExamples", "WindowsFo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpExamplesNetCoreTest", "CSharpExamplesNetCoreTest\CSharpExamplesNetCoreTest.csproj", "{5F3A4E41-DB7E-4C08-A1D1-4F34472E194B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleAppNetCore", "consoleAppNetCore\consoleAppNetCore.csproj", "{2C36217B-F50E-4905-B90F-5FF024351553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consoleAppNetCore", "consoleAppNetCore\consoleAppNetCore.csproj", "{2C36217B-F50E-4905-B90F-5FF024351553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

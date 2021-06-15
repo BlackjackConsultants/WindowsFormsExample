@@ -1,4 +1,3 @@
-using CSharpExamples;
 using CSharpExamplesNetCore.Model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;

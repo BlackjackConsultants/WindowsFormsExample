@@ -1,9 +1,6 @@
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Host.exe.config
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Host.exe
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Host.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.exe
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.pdb
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
@@ -14,5 +11,8 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\De
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csproj.CopyComplete
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.exe
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.pdb
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\WindowsFormsExample\Host\obj\Debug\Host.csprojAssemblyReference.cache
